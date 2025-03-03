@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on 安悦咨询AI探索</title>
-        <link>http://localhost:1313/categories/</link>
+        <link>http://localhost:64962/categories/</link>
         <description>Recent content in Categories on 安悦咨询AI探索</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Sun, 03 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 03 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:64962/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>AI转型</title>
-        <link>http://localhost:1313/categories/ai%E8%BD%AC%E5%9E%8B/</link>
+        <link>http://localhost:64962/categories/ai%E8%BD%AC%E5%9E%8B/</link>
         <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/ai%E8%BD%AC%E5%9E%8B/</guid>
+        <guid>http://localhost:64962/categories/ai%E8%BD%AC%E5%9E%8B/</guid>
         <description></description>
         </item>
         <item>
         <title>数字化</title>
-        <link>http://localhost:1313/categories/%E6%95%B0%E5%AD%97%E5%8C%96/</link>
+        <link>http://localhost:64962/categories/%E6%95%B0%E5%AD%97%E5%8C%96/</link>
         <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/%E6%95%B0%E5%AD%97%E5%8C%96/</guid>
+        <guid>http://localhost:64962/categories/%E6%95%B0%E5%AD%97%E5%8C%96/</guid>
         <description></description>
         </item>
         
