@@ -1,0 +1,88 @@
+baseURL = 'https://anyuezixun_blog.github.io/'
+languageCode = 'zh-cn'
+title = '安悦咨询AI探索'
+theme = 'hugo-theme-stack'
+
+[params]
+  mainSections = ['post']
+  featuredImageField = 'image'
+  rssFullContent = true
+  favicon = '/favicon.ico'
+
+  [params.footer]
+    since = 2024
+    customText = '安悦咨询AI探索'
+
+  [params.dateFormat]
+    published = "2006-01-02"
+    lastUpdated = "2006-01-02"
+
+  [params.sidebar]
+    emoji = "🚀"
+    subtitle = "探索AI技术前沿，助力企业数字化转型"
+
+  [params.sidebar.avatar]
+    enabled = false
+
+  # 添加评论系统配置
+  [params.comments]
+    enabled = true
+    provider = "giscus"
+
+    [params.comments.giscus]
+      repo = "anyuezixun_blog/anyuezixun_blog.github.io"
+      repoId = "R_kgDOLxxxxxx"  # 需要替换为实际的仓库ID
+      category = "Comments"
+      categoryId = "DIC_kwDOLxxxxxx" # 需要替换为实际的分类ID
+      mapping = "pathname"
+      strict = "0"
+      reactionsEnabled = "1"
+      emitMetadata = "0"
+      inputPosition = "bottom"
+      lang = "zh-CN"
+
+  # 添加统计功能
+  [params.analytics]
+    google = 
+      id = "G-XXXXXXXXXX"  # 需要替换为实际的跟踪ID
+
+  # 添加社交媒体链接
+  [[params.social]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/anyuezixun_blog"
+    params = { icon = "brand-github" }
+
+  [[params.social]]
+    identifier = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/anyuezixun"
+    params = { icon = "brand-twitter" }
+
+  [[params.social]]
+    identifier = "linkedin"
+    name = "LinkedIn"
+    url = "https://linkedin.com/company/anyuezixun"
+    params = { icon = "brand-linkedin" }
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "首页"
+    url = "/"
+    weight = -100
+    params = { icon = "home" }
+
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about"
+    weight = -90
+    params = { icon = "user" }
+
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search"
+    weight = -70
+    params = { icon = "search" }
