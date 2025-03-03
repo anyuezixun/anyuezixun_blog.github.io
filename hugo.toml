@@ -1,4 +1,4 @@
-baseURL = 'https://anyuezixun_blog.github.io/'
+baseURL = 'https://anyuezixun.github.io/anyuezixun_blog.github.io/'
 languageCode = 'zh-cn'
 title = '安悦咨询AI探索'
 theme = 'hugo-theme-stack'
