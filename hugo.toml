@@ -42,9 +42,8 @@ theme = 'hugo-theme-stack'
       lang = "zh-CN"
 
   # 添加统计功能
-  [params.analytics]
-    google = 
-      id = "G-XXXXXXXXXX"  # 需要替换为实际的跟踪ID
+  [params.analytics.google]
+    id = "G-XXXXXXXXXX"  # 需要替换为实际的跟踪ID
 
   # 添加社交媒体链接
   [[params.social]]
